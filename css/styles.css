@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: aqua;
+    grid-auto-rows: minmax(100px, auto);
+    margin:  0 0 100px 0;
+}
+.header-menu-container > .header-menu-container-cener-box{
+    align-items: center;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header-menu-container-cener-box > div{
+    justify-self: center;
+    flex: 1;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+.header-menu-container-cener-box > div a{
+    color: #000;
+    font-size: 6mm;
+    padding: 20px;
+}
+.main-contaner{
+    width: 100%;
+    background: url('../imges/bus.png') no-repeat  10% 10%;
+    background-attachment:unset;
+    background-size:contain;
+    height: 60vh;
+    background-attachment:unset;
+    background-size:contain;
+    margin-bottom: 10%;
+}
+
+.main-contaner > .zagolovok{
+    width: 65%;
+    height: 100%;
+    vertical-align: middle;
+    float: right;
+    text-align: left;
+}
+.main-contaner h1 {
+    margin-left: 10%;
+    text-align: center;
+    left: 50%;
+    height: 50%;
+    font-size: 4em;
+    padding-top: 5%;
+    width: 70%;
+}
+.main-contaner p {
+    font-size: 2em;
+    margin-left: 10%;
+    height: 50%;
+    line-height: 50px;
+    text-align: center;
+    width: 70%;
+}
