@@ -215,7 +215,6 @@ require_once 'connection.php';
                                 data:{ city1: otkudacity1, city2: kudacity2, year: yearval, month: monthval, day: dayval, pass: kolpass, name: nameValue, class: classValue, surname: surnameValue, otchestvo: otchestvoValue, time: timeval, phone: phoneValue},
                                 success: function (response) {
                                  $(location).attr('href','search-results.php');
-                                    alert('dddddd');
                                 }
                             })
                         });
